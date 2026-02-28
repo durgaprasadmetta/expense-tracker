@@ -4,7 +4,7 @@ import os
 FILENAME = "expenses.csv"
 
 def add_expense():
-    date = input("Enter date (YYYY-MM-DD): ")
+    date = input("Enter date (DD-MM-YYYY): ")
     category = input("Enter category (Food/Travel/Shopping/etc): ")
     amount = float(input("Enter amount: "))
 
